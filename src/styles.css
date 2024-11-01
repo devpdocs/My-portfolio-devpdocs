@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --firefly-50: #f0fafb;
+  --firefly-100: #d9f1f4;
+  --firefly-200: #b8e4e9;
+  --firefly-300: #87cfd9;
+  --firefly-400: #4fb1c1;
+  --firefly-500: #3395a7;
+  --firefly-600: #2d798d;
+  --firefly-700: #2a6374;
+  --firefly-800: #2a5360;
+  --firefly-900: #274652;
+  --firefly-950: #0f2027;
+}
+
+body {
+  font-family: "Oxanium", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  background: #0F2027;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
+}
